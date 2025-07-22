@@ -7,7 +7,7 @@ import random
 st.set_page_config(page_title='🏡 House Price Predictor', layout='centered')
 
 # Load Model
-with open('models/house_pred.pkl', 'rb') as file:
+with open('house_pred.pkl', 'rb') as file:
     model = joblib.load(file)
 
 # -------------------------------
